@@ -1,0 +1,90 @@
+.container {
+
+  .section1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    padding-top: 10px;
+
+    h2 {
+      text-shadow: 0px 5px 5px rgb(110, 110, 110);
+    }
+
+  }
+
+  .section2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .btn {
+
+      width: 100%;
+      
+      button {
+        height: 30px;
+        background-color: rgb(245, 243, 212);
+        border-radius: 5px;
+
+        a {
+          text-decoration: none;
+          color: black;
+          font-family: 'Acme', sans-serif;
+        }
+      }
+    }
+
+    .sosmed {
+
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      ul {
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        li {
+
+          list-style: none;
+          margin-right: 25px;
+
+          a {
+
+            color: white;
+            text-decoration: none;
+            background-color: rgb(3, 20, 31);
+            font-size: 14px;
+
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+}
+
+button:hover {
+  box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+li a:hover {
+  font-weight: bold;
+  text-shadow: 0px 10px 5px wheat;
+}

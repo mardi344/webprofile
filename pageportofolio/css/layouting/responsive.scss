@@ -1,0 +1,162 @@
+
+
+@media screen and (max-width: 450px) {
+  .navbar {
+
+    nav {
+  
+      .nav-menu {
+  
+        ul {
+  
+          li {
+  
+            a {
+              font-size: 11px;
+              border-left: 1px solid rgb(94, 94, 94);
+              border-right: 1px solid rgb(94, 94, 94);
+            }
+  
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    margin-top: 50px;
+  
+    header {
+  
+      #text {
+
+        font-size: 20px;
+        color: rgb(3, 10, 31);
+      }
+    }
+
+    .about {
+      text-align: left;
+  
+      h2 {
+        text-decoration: none;
+      }
+  
+      p {
+        font-size: 15px;
+        padding: 0px;
+      }
+    }
+  }
+
+  #archdraf {
+
+    .container {
+
+      .title1 {
+
+        h1 {
+          text-align: left;
+          font-size: small;
+          color: white;
+        }
+      }
+
+    }
+
+    .desc-drafter {
+
+      h4 {
+        text-align: left;
+        color: white;
+      }
+    }
+
+    .slideshow {
+
+      border: 1px solid white;
+
+      .wrapper{
+
+        img{
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+  #home-tour {
+
+    width: 100%;
+    // background-color: rgb(3, 10, 31);
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+
+    .container {
+
+      .title2{
+        margin-bottom: 20px;
+
+        h1 {
+          color: white;
+          text-align: left;
+          font-size: 15px;
+        }
+      }
+
+      .desc-hometour{
+
+        margin-bottom: 20px ;
+
+        h4 {
+          color: white;
+          font-size: medium;
+        }
+      }
+
+      .video {
+        width: 100%;
+      }
+    }
+  }
+
+  #example-website {
+
+    .container {
+
+      .title3 {
+
+        h1 {
+          color: white;
+          text-align: left;
+          font-size: 15px;
+        }
+      }
+
+    }
+
+    .desc-web {
+
+      h4 {
+
+        color: white;
+        text-align: left;
+        
+      }
+    }
+
+    .slideshows {
+
+      .wrappers{
+
+        img{
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,294 @@
+.content {
+  margin-top: 50px;
+  height: auto;
+
+  header {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #text {
+      color: rgb(3, 10, 31);
+    }
+  }
+
+  .about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    text-align: center;
+    border-top: 1px solid rgba(134, 134, 134, 0.5);
+    border-bottom: 1px solid rgba(134, 134, 134, 0.5);
+    padding-top: 10px;
+
+    h2 {
+      text-decoration: none;
+    }
+
+    p {
+      font-size: 20px;
+      padding: 50px;
+    }
+  }
+
+  #archdraf {
+
+    width: 100%;
+    // background-color: rgb(3, 10, 31);
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+
+    .container {
+
+      .title1 {
+
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+
+        h1 {
+          color: white;
+        }
+      }
+
+    }
+
+    .desc-drafter {
+
+      width: 100%;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+
+      h4 {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+      }
+    }
+
+    .slideshow {
+
+      overflow: hidden;
+      border: 3px solid white;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px white;
+
+      .wrapper{
+        width: 100%;
+        display: flex;
+        animation: slide 16s infinite;
+
+        img{
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+  #home-tour {
+
+    width: 100%;
+    // background-color: rgb(3, 10, 31);
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    .container {
+
+      .title2{
+        margin-bottom: 20px;
+        text-align: center;
+
+        h1 {
+          color: white;
+        }
+      }
+
+      .desc-hometour{
+
+        margin-bottom: 20px ;
+
+        h4 {
+          color: white;
+        }
+
+      }
+
+      .video {
+
+        width: 100%;
+      }
+    }
+  }
+
+  #example-website {
+
+    width: 100%;
+    // background-color: rgb(3, 10, 31);
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid white;
+
+    .container {
+
+      .title3 {
+
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+
+        h1 {
+          color: white;
+        }
+      }
+
+    }
+
+    .desc-web {
+
+      width: 100%;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+
+      h4 {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+      }
+    }
+
+    .slideshows {
+
+      overflow: hidden;
+      border: 3px solid white;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px white;
+
+      .wrappers{
+        width: 100%;
+        display: flex;
+        animation: slide 16s infinite;
+
+        img{
+          width: 100%;
+        }
+      }
+    }
+
+  }
+
+  #qoutes {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    padding-top: 50px;
+
+    .container {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .qoute {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+
+        p {
+          font-size: 20px;
+        }
+
+        span {
+          font-size: small;
+          font-weight: bold;
+        }
+      }
+
+    }
+  }
+  
+}
+
+.footer {
+
+  background-color: #333;
+  // background-color: rgb(247, 30, 30);
+  height: 45px;
+  display: flex;
+  align-items: center;
+  footer {
+
+    width: 100%;
+    text-align: center;
+
+    h6 {
+      color: white;
+
+      i {
+        color: white;
+      }
+    }
+
+  }
+}
+
+
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+
+.my {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mx {
+  margin-left: 10px;
+  margin-right: 10px;
+}
