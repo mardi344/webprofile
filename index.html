@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mardi.web</title>
-  <link rel="icon" href="/assets/Image/MARCHIE-removebg-preview.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/e1d6288b12.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/styling/index.css">
-</head>
-<body>
-  <div class="container">
-    <div class="section1">
-      <h2 id="text"></h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mardi.web</title>
+    <link rel="icon" href="/assets/Image/MARCHIE-removebg-preview.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e1d6288b12.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styling/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="/assets/Image/MardiTTEch-removebg-preview.png" alt="logo" />
+        <h3>MardiantoWeb</h3>
+      </div>
+      <div class="section1">
+        <h2 id="text"></h2>
+      </div>
+      <!-- <div class="section2">
+        <div class="ball">
+          <img
+            src="/assets/Image/imgprofile.png"
+            alt="ProfileMardianto"
+            width="98%"
+          />
+        </div>
+        <div class="shadow"></div>
+      </div> -->
+      <div class="section3">
+        <div class="btn">
+          <button type="button" id="btnNextPage" onclick="nextPage()">
+            OPEN
+          </button>
+        </div>
+        <div class="sosmed">
+          <ul>
+            <li>
+              <a href="https://github.com/mardi344"
+                ><i class="fa-brands fa-github"></i> <br />
+                github</a
+              >
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mardi-anto-443713119/"
+                ><i class="fa-brands fa-linkedin"></i> <br />
+                Linkdln</a
+              >
+            </li>
+            <li>
+              <a href="https://at.tumblr.com/mardiant/nur5k7oxrb5s"
+                ><i class="fa-brands fa-tumblr"></i> <br />
+                Tumblr</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/marrdianto/?hl=id"
+                ><i class="fa-brands fa-instagram"></i> <br />
+                Instgrm</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="section2">
-      <div class="ball">
-        <img
-              src="/assets/Image/imgprofile.png"
-              alt="ProfileMardianto"
-              width="98%"
-            />
-      </div>
-      <div class="shadow">
-      </div>
-    </div>
-    <div class="section3">
-      <div class="btn">
-        <button type="menu"><a href="/pageportofolio/index.html">OPEN PORTOFOLIO</a></button>
-      </div>
-      <div class="sosmed">
-        <ul>
-          <li>
-            <a href="https://github.com/mardi344"><i class="fa-brands fa-github"></i> <br> github</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/mardi-anto-443713119/"><i class="fa-brands fa-linkedin"></i> <br> Linkdln</a>
-          </li>
-          <li>
-            <a href="https://at.tumblr.com/mardiant/nur5k7oxrb5s"><i class="fa-brands fa-tumblr"></i> <br> Tumblr</a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/marrdianto/?hl=id"><i class="fa-brands fa-instagram"></i> <br> Instgrm</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
-  <script src="/js/createtext.js"></script>
-</body>
+    <script src="/js/createtext.js"></script>
+    <script src="/js/btnNextPage.js"></script>
+  </body>
 </html>
